@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "BZModel"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "项目通用模型。"
 
   s.description  = <<-DESC
@@ -15,11 +15,10 @@ Pod::Spec.new do |s|
   s.author             = { "EricBup" => "375298211@qq.com" }
   s.source       = { :git => "https://github.com/EricBZH/BZModel.git", :tag => "#{s.version}" }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
   s.requires_arc = true
 
   s.source_files = "BZModelDemo/BZModel/*.{h,m}"
-  # s.public_header_files = "BZModelDemo/BZModel/BZModel.h"
 
   s.dependency     "MJExtension"
   s.dependency     "YYModel"
