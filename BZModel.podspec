@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "BZModel"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "项目通用模型。"
 
   s.description  = <<-DESC
